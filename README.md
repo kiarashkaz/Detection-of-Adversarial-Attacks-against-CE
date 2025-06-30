@@ -2,7 +2,7 @@
 
 # Running Experiments
 
-* ```main_test.py``` is the main script for running an adversarial game. The game is specified using the game_name argument, and the minimum per-step attack budget is set using epsilon. The script outputs two JSON files that summarize the statistics for both the attacked and non-attacked scenarios. 
+* ```main_test.py``` is the main script for running an adversarial game. The game is specified using the ```game_name argument```, and the minimum per-step attack budget is set using ```epsilon```. The script outputs two JSON files that summarize the statistics for both the attacked and non-attacked scenarios. ```adv_attack_offset``` determies the the attack parameter (\theta), relative to \theta_min.
 
 * To run an experiment, for example, for DAA (Dynamic Adversary)  with 𝑤=10, 𝛽=−3, and for 100 episodes:
 
